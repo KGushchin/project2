@@ -1,0 +1,716 @@
+* {
+box-sizing: border-box;
+}
+._container {
+max-width: 1330px;
+padding: 0 15px;
+    margin: 0 auto;
+}
+.nav {
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 200px;
+}
+.header__row {
+    display: flex;
+justify-content: space-between;
+
+}
+.header {
+background-image: url('img/headerbg.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.logo__item {
+
+    padding-top: 30px;
+margin-right: 12px;
+    margin-bottom: 30px;
+}
+.nav__list {
+display: flex;
+    column-gap: 40px;
+
+    padding-top: 43px;
+    font-family: 'GilroyM';
+    color: white;
+    font-size: 14px;
+}
+.nav__social {
+display: flex;
+    column-gap: 20px;
+    padding-top: 35px;
+}
+.img_nav_item {
+max-width: 36px;
+    max-height: 36px;
+}
+.btn__link {
+    padding-top: 30px;
+    margin-right: 15px;
+}
+.mob__nav__menu {
+padding-top: 43px;
+    display:none;
+}
+
+.header__title {
+    line-height: 1.4;
+    font-size: 48px;
+    font-family: 'GilroyB';
+    color: white;
+    margin-bottom: 60px;
+}
+
+
+.nav__menu__mobile {
+position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    display: none;
+
+
+}
+.nav__list__mobile {
+ font-family: GilroyB;
+    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 46px 30px;
+
+}
+.close-button {
+max-width: 95px;
+    max-height: 95px;
+    margin-left: auto;
+
+}
+.club__video p {
+    font-family: GilroyM;
+    font-size: 18px;
+    color: white;
+    line-height: 1.4;
+}
+.club__video {
+display:flex;
+    align-items: center;
+    margin-bottom: 202px;
+}
+.club__button {
+margin-right: 30px;
+}
+.services__menu {
+
+max-height: 151px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 12px;
+
+}
+.services__item {
+ display: flex;
+    max-width: 315px;
+    background-color: #8D86C9;
+    max-height: 151px;
+}
+
+.services__text {
+font-family: GilroyM;
+    font-size: 18px;
+    color: white;
+    padding-top: 35px;
+    padding-left: 35px;
+    margin-right: 55px;
+    line-height: 1.4;
+   padding-bottom: 40px;
+}
+.services__text span {
+    font-family: GilroyB;
+}
+.services__text p {
+margin-bottom: 17px;
+}
+.services__text h3 {
+    font-size: 24px;
+}
+.services__button {
+max-width: 30px;
+    max-height: 30px;
+margin-top: 72px;
+
+
+}
+.text_2 {
+margin-right: 36px;
+}
+.text_3 {
+margin-right: 47px;
+}
+.text_4 {
+ margin-right: 76px;
+}
+.header {
+margin-bottom: 149px;
+}
+.area__column {
+    border: 1px solid #F7ECE1;
+    max-width: 416px;
+
+    display: flex;
+
+
+}
+.area__info {
+    margin-bottom: 150px;
+}
+.area__row {
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 12px;
+}
+.area__column__row {
+    max-width: 416px;
+    position: relative;
+    margin-right: 0px;
+    padding: 25px 20px;
+    display: flex;
+
+}
+.area__text {
+    position: absolute;
+    color: white;
+    font-family: GilroyB;
+    font-size: 27px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-left: 15px;
+
+     bottom: 0;
+    line-height: 1.4;
+    padding-bottom: 65px;
+
+}
+.area__column__row_2 {
+    max-width: 376px;
+    position: relative;
+    margin-right: 0px;
+    padding: 25px 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.area__container {
+ width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.club__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.club__info__row {
+    padding-right: 110px;
+}
+.club__img {
+   max-height: 514px;
+    width: 100%;
+    max-width: 526px;
+}
+.club__text {
+    background-color: #F7ECE1;
+    max-width: 636px;
+    position: relative;
+}
+.club__title {
+    padding-left: 146px;
+    margin-right: 60px;
+    padding-top: 60px;
+}
+.club__title h2 {
+    font-size: 36px;
+    font-family: GilroyB;
+    line-height: 1.4;
+    margin-bottom: 25px;
+
+}
+.club__info__row {
+ display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.club__title {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: GilroyM;
+
+}
+.club__list p {
+   font-weight: 600;
+    font-family: GilroyB;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.club__list {
+   padding-bottom: 84px;
+}
+.club__list ul {
+ list-style-image: url("img/liststyle.png");
+    margin-left: 13px;
+}
+.club__list li {
+   padding-left: 23px;
+}
+.club__text:before {
+    content: url("img/infoimg.png");
+    position: absolute;
+    top: 40px;
+    left: -460px;
+    width: calc(100% + 120px);
+    height: calc(100% + 120px);
+
+}
+.club__info {
+    margin-bottom: 150px;
+}
+.coach__button {
+    background-color: #8D86C9;
+}
+.coach__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.coach__title h3 {
+    font-family: GilroyB;
+    font-size: 36px;
+    line-height: 1.4;
+
+}
+.coach__title a{
+    max-width: 45px;
+}
+.coach__buttons {
+    display:flex;
+    column-gap: 22px;
+    padding-right: 10px;
+
+}
+.coach__button__rotate {
+    background-color: #8D86C9;
+    transform:rotate(180deg);
+}
+.coach__item img {
+
+    max-width: 230px;
+
+}
+.coach__menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 24px;
+}
+.coach__item {
+    display:flex;
+
+flex-direction: column;
+    max-width: 230px;
+    text-align: center;
+align-items: center;
+
+}
+.coach__img {
+    border: 1px solid #F7ECE1;
+    margin-bottom: 25px;
+    max-height: 242px;
+
+}
+.coach__img img {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 0 ;
+
+
+}
+.coach__item h4 {
+    font-size: 21px;
+    font-family: GilroyB;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.coach__item p {
+    font-size: 14px;
+    font-family: GilroyM;
+    line-height: 1.4;
+}
+.coach__info {
+    margin-bottom: 150px;
+}
+.price__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.price__buttons {
+    display: flex;
+    column-gap: 22px;
+}
+.price__title {
+    font-family: GilroyB;
+    font-size: 36px;
+    line-height: 1.4;
+}
+.price__item {
+    background-color: #8D86C9;
+    max-width: 526px;
+    display: flex;
+    justify-content: space-between;
+}
+.first__title {
+    font-family: GilroyB;
+    font-size: 21px;
+    line-height: 1.4;
+    color: white;
+    padding-left: 30px;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+    margin-right: 195px;
+}
+.second__title {
+    font-family: GilroyB;
+    font-size: 21px;
+    line-height: 1.4;
+    color: white;
+    padding-left: 30px;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+    margin-right: 195px;
+}
+.third__title {
+    font-family: GilroyB;
+    font-size: 21px;
+    line-height: 1.4;
+    color: white;
+    padding-left: 30px;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+    margin-right: 195px;
+}
+.fourth__title {
+    font-family: GilroyB;
+    font-size: 21px;
+    line-height: 1.4;
+    color: white;
+    padding-left: 30px;
+    padding-top: 15.5px;
+    padding-bottom: 15.5px;
+    margin-right: 195px;
+}
+.price__img {
+  max-width: 30px;
+    max-height: 30px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.price__menu__row {
+    display: flex;
+}
+.price__nav {
+display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-right: 134px;
+}
+.service__title {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.service__title h3 {
+    font-size: 36px;
+    line-height: 1.4;
+    font-family: GilroyB;
+}
+.cafe__img__row {
+    border: 1px solid #F7ECE1;
+    position: relative;
+}
+.cafe__img {
+    height: auto;
+
+    line-height: 0;
+    display: block;
+    margin: 30px 25px;
+}
+
+.cafe__img__subtitle {
+    position: absolute;
+     margin-top: -98px;
+    margin-left: 66px;
+    font-size: 27px;
+    font-family: GilroyB;
+    line-height: 1.4;
+    color: white;
+
+}
+.price__menu {
+    margin-bottom: 150px;
+}
+.footer {
+    width: 100%;
+    background-color: #F7ECE1;
+}
+.footer__row {
+    display:flex;
+    max-width: 1296px;
+align-items: center;
+}
+.footer__nav__menu {
+    display: flex;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+
+}
+.footer__nav {
+    padding: 38px 0px;
+}
+.license {
+    margin-right: 104px;
+    color: #333333;
+font-family: GilroyM;
+    opacity: 0.3;
+    line-height: 1.4;
+    font-size: 14px;
+}
+.footer__nav__item {
+    font-family: GilroyM;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.footer__nav {
+    margin-right: 102px;
+}
+@media (max-width: 1100px) {
+.mob__nav__menu {
+display:block;
+}
+    .nav__list {
+     display:none;
+    }
+    .header__row {
+     width: 100%;
+        justify-content: flex-start;
+
+    }
+    .mob__nav__menu {
+    margin-left: auto;
+    }
+}
+@media (max-width: 600px) {
+.header__title {
+    font-size: 40px;
+}
+}
+@media (max-width: 500px) {
+ .header__title {
+     font-size: 36px;
+ }
+}
+@media (max-width: 1340px) {
+.services__text span {
+    font-size: 20px;
+}
+    .services_container {
+      width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    @media (max-width: 1130px) {
+.club__video {
+   margin-bottom: 202px;
+}
+        .services__menu {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+grid-row-gap: 12px;
+            margin-bottom: 488px;
+    }
+        .services__text {
+
+        }
+    }
+}
+@media (max-width: 600px) {
+.services__menu {
+  grid-template-columns: 1fr;
+}
+}
+@media (max-width: 900px) {
+.area__row {
+grid-template-columns: 1fr;
+}
+}
+@media (max-width:1230px) {
+.club__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+    .club__info {
+        display: flex;
+        justify-content: center;
+    }
+    .club__text:before {
+        display:none;
+    }
+    club__text {
+        width: 100%;
+    }
+}
+@media (max-width: 1339px) {
+.coach__menu {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+row-gap: 20px;
+}
+    .coach__item {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+    @media (max-width: 660px) {
+       .coach__menu {
+         grid-template-columns: 1fr;
+           justify-content: center;
+           align-items: center;
+           row-gap: 20px;
+           width: 100%;
+       }
+        .coach__item {
+            width: 100%;
+            max-width: 100%;
+    }
+}
+@media (max-width: 1345px) {
+ .price__menu__row {
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+
+.first__title {
+    margin-right: 195px;
+}
+.second__title {
+    margin-right: 312px;
+}
+.third__title {
+    margin-right: 362px;
+}
+.fourth__title {
+    margin-right: 198px;
+}
+    .price__nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-bottom: 70px;
+    }
+    .price__item {
+        justify-content: space-between;
+
+    }
+
+    .price__container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media (max-width: 544px) {
+.price__container {
+    width: 100%;
+    justify-content: center;
+
+}
+
+    .price__item {
+    max-width: 320px;
+    width: 100%;
+}
+    .price__item h4 {
+        font-size: 16px;
+        margin-right: 0px;
+    }
+    .first__title {
+        margin-right: 0px;
+
+    }
+    .second__title {
+        margin-right: 0px;
+    }
+    .third__title {
+margin-right: 0px;
+    }
+    .fourth__title {
+        margin-right: 0px;
+    }
+
+}
+@media (max-width:650px) {
+    .price__title {
+        font-size: 30px;
+    }
+    .service__list {
+        max-width: 400px;
+    }
+    .cafe__img {
+        max-width: 400px;
+        margin:0;
+    }
+}
+@media (max-width: 400px) {
+ .service__list {
+     max-width: 320px;
+ }
+    .cafe__img {
+        max-width: 320px;
+    }
+    .service__title h3 {
+        font-size: 32px;
+        padding-left: 5px;
+    }
+}
+@media (max-width: 415px) {
+    .footer__nav {
+        margin-right: 15px;
+    }
+    .license {
+        margin-right: 15px;
+    }
+    .footer__nav__menu {
+
+    }
+}
+
